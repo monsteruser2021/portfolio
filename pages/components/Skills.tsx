@@ -32,7 +32,7 @@ const Skills = () => {
         <div>
             <SkillsItem title='React Developer' year='2024-Present'/>
             <p className='text-gray-200 w-[80%] mb-[5rem] text-[17px] opacity-80'>
-            Passionate about creating exceptional user experiences. I specialize in building responsive and user-friendly web applications using React. I'm skilled in optimizing performance, accessibility, and cross-browser compatibility.
+            Passionate about creating exceptional user experiences. I specialize in building responsive and user-friendly web applications using React. I am skilled in optimizing performance, accessibility, and cross-browser compatibility.
             </p>
             <SkillsItem title='Next JS Developer' year='2024 present'/>
             <p className='text-gray-200 w-[80%] mb-[5rem] text-[17px] opacity-80'>

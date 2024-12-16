@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
               <a href="https://monsteruser2021.github.io/primera-pagina/">
               <Image 
-                src='./images/p1.jpg'
+                src='./images/p1.png'
                 alt='portfolio'
                 layout='fill'
                 className='object-contain'
