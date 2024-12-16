@@ -22,7 +22,7 @@ function Hero() {
                     Welcome to my digital portfolio. Here you will find a sample of my most outstanding projects in the IT field, through each work, you can see my growth as a developer and my constant search for innovation.
                     </p>
                     <div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
-                        <a href="https://drive.google.com/file/d/1prr-pwDrBLxFl-7_9_qHyhH5uuR4Xs3L/view?usp=drive_link">
+                        <a href="https://drive.google.com/file/d/1BjkbvYLaYuFm3xr0FZThAwzRqyKABca4/view">
                             <button className='px-[2rem] hover:bg-red-800 transition-all duration-200 py-[1rem] text-[18px] uppercase bg-gray-400 text-black flex items-center space-x-2 rounded-full'>
                                 <p>
                                     Download CV
@@ -39,10 +39,11 @@ function Hero() {
                     </div>
                 </div>
                 <div
-                className='w-[500px] hidden bg-red-950 relative lg:flex items-center rounded-full h-[500px]'>
-                    <Image src="./images/profile.jpeg"
+                className='w-[500px] hidden bg-red-950 relative lg:flex object-fill rounded-full h-[500px] ml-auto'>
+                    <Image src="./images/profile.png"
                     alt="user" 
-                    layout='fill' 
+                    width={500}
+                    height={500}
                     className='object-cover rounded-full'/>
                 </div>
             </div>

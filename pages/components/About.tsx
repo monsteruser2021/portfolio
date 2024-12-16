@@ -7,7 +7,7 @@ const About = () => {
     <div
     id='about'
     className='bg-neutral-800 pb-[3rem] pt-[4rem] md:pt-[8rem]'>
-        <div className='grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center '>
             <div>
                 <h1 className='text-[30px] uppercase text-red-700 mb-[1rem]'>ABOUT ME</h1>
                 <h2 className='text-[30px] md:text-[35px] lg:text-[40px] leading-[2rem] md:leading-[3rem] capitalize mb-[3rem] text-white'>
@@ -24,10 +24,11 @@ const About = () => {
             </div>
             <div
             data-aos="fade-up-left"
-            className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
+            className='lg:w-[500px] lg:h-[500px] mx-auto mt-[2rem] relative'>
               <Image src="./images/about.jpeg"
-              alt='user' 
-              layout='fill' 
+              alt='user'
+              width={500}
+              height={500}
               objectFit='contain, cover' 
               className='relative z-[11] w-[100%] h-[100%] rounded-lg'
               />

@@ -8,7 +8,7 @@ const Services = () => {
     className='bg-neutral-900 pt-[4rem] md:pt-[8rem] pb-[5rem]'>
         <p className='heading'>My<span className='text-gray-100'>Services</span>
         </p>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[4rem] mt-[4rem] text-white'>
           <div data-aos="fade-right">
             <div className='bg-slate-600 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase text-center p-[2rem] border-[5px] border-gray-200 rounded-lg'>
               <PaintBrushIcon className='w-[6rem] h-[6rem] mx-auto text-gray-100'/>

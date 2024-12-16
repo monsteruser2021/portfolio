@@ -32,7 +32,7 @@ const Skills = () => {
         <div>
             <SkillsItem title='React Developer' year='2024-Present'/>
             <p className='text-gray-200 w-[80%] mb-[5rem] text-[17px] opacity-80'>
-            As a React developer, I focus on transforming designs into reality. I have in-depth knowledge of components, state, hooks and other key React features to build interactive and custom web applications.
+            Passionate about creating exceptional user experiences. I specialize in building responsive and user-friendly web applications using React. I'm skilled in optimizing performance, accessibility, and cross-browser compatibility.
             </p>
             <SkillsItem title='Next JS Developer' year='2024 present'/>
             <p className='text-gray-200 w-[80%] mb-[5rem] text-[17px] opacity-80'>
@@ -41,7 +41,7 @@ const Skills = () => {
             <SkillsLanguage 
             skill1='React Js' 
             skill2='Next Js' 
-            skill3='TypeScript' 
+            skill3='TypeScript'
             level1='w-[81%]' 
             level2='w-[78%]' 
             level3='w-[60%]'
