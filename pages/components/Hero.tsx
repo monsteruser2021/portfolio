@@ -5,12 +5,11 @@ import Image from 'next/image';
 import { ArrowDownTrayIcon } from '@heroicons/react/16/solid';
 import { PlayCircleIcon } from '@heroicons/react/20/solid';
 
-
 function Hero() {
     return (
         <div 
         id='hero'
-        className="h-[88vh] mt-[12vh] bg-neutral-900">
+        className="h-[88vh] w-screen mt-[12vh] bg-neutral-900">
             <Particle/>
             <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                 <div>
