@@ -27,12 +27,14 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="300">
             <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-                <Image 
-                src='./images/p2.jpg'
-                alt='portfolio'
-                layout='fill'
-                className='object-contain'
-                />
+                <a href="https://github.com/monsteruser2021/cpp-inventory">
+                  <Image 
+                  src='./images/p2.jpg'
+                  alt='portfolio'
+                  layout='fill'
+                  className='object-contain'
+                  />
+                </a>
             </div>
             <span className='text-center block text-gray-200 text-[20px] uppercase bg-neutral-700 border-[3px] border-red-800 rounded-lg '>
                 c++ inventory
