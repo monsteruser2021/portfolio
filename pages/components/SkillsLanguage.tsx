@@ -19,7 +19,10 @@ const SkillsLanguage = ({
 }: Props) => {
 
   return (
-    <div>
+    <div 
+    data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <div className='relative mb-[3rem]'>
         <h1 className='p-5 w-[100%] uppercase bg-neutral-700 rounded-sm text-gray-200 text-[20px]'>
           {skill1}

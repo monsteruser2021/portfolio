@@ -7,7 +7,7 @@ const Footer = () => {
     id='contact'
     className='pt-[8rem] pb-[4rem] w-screen bg-neutral-800 '>
       <div className='grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] '>
-        <div className='flex items-center space-x-6'>
+        <div className='flex items-center space-x-6' data-aos="zoom-out">
             <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-red-800 '>
                 <MapPinIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black '/>
             </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </p>
             </div>
         </div>
-        <div className='flex items-center space-x-6'>
+        <div className='flex items-center space-x-6' data-aos="zoom-out">
             <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-red-800 '>
                 <a href="https://wa.me/584126338516">
                 <DevicePhoneMobileIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black '/>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </p>
             </div>
         </div>
-        <div className='flex items-center space-x-6'>
+        <div className='flex items-center space-x-6' data-aos="zoom-out">
             <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-red-800 '>
                 <a href="mailto:monsteruser2021@gmail.com">
                 <EnvelopeIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black '/>

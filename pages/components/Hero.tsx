@@ -13,17 +13,17 @@ function Hero() {
             <Particle/>
             <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
                 <div>
-                    <h1 className='text-[40px] md:text[50px] text-white' data-aos="fade-right">
+                    <h1 className='text-[40px] md:text[50px] text-white'>
                         Hi, I&apos;m <span className='text-red-700'>MonsterUser!</span>
                     </h1>
                     <TextEffect/>
-                    <p className='mt-[1.5rem] text-[20px] text-stone-300' data-aos="fade-right">
+                    <p className='mt-[1.5rem] text-[20px] text-stone-300'>
                     Welcome to my digital portfolio. Here you will find a sample of my most outstanding projects in the IT field, through each work, you can see my growth as a developer and my constant search for innovation.
                     </p>
                     <div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
                         <a href="https://drive.google.com/file/d/1BjkbvYLaYuFm3xr0FZThAwzRqyKABca4/view">
                             <button className='px-[2rem] hover:bg-red-800 transition-all duration-200 py-[1rem] text-[18px] uppercase bg-gray-400 text-black flex items-center space-x-2 rounded-full'
-                            data-aos="fade-right">
+                            >
                                 <p>
                                     Download CV
                                 </p>
@@ -39,7 +39,7 @@ function Hero() {
                     </div>
                 </div>
                 <div
-                className='w-[500px] hidden bg-red-950 relative lg:flex object-fill rounded-full h-[500px] ml-auto' data-aos="fade-left">
+                className='w-[500px] hidden bg-red-950 relative lg:flex object-fill rounded-full h-[500px] ml-auto'>
                     <Image src="./images/profile.png"
                     alt="user" 
                     width={500}
