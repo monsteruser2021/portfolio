@@ -2,7 +2,8 @@ import { TypeAnimation } from 'react-type-animation';
 
 const TextEffect = () => {
   return (
-    <TypeAnimation
+    <div data-aos="fade-right">
+      <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Programmer',
@@ -16,6 +17,7 @@ const TextEffect = () => {
       className='text-[2rem] md:text-[3rem] text-red-800 uppercase'
       repeat={Infinity}
     />
+    </div>
   );
 };
 
