@@ -2,7 +2,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const TextEffect = () => {
   return (
-    <div data-aos="fade-right">
+    <div >
       <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
